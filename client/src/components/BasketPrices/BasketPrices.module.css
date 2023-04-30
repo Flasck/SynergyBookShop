@@ -1,0 +1,67 @@
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	background-color: var(--white);
+	border-radius: var(--br);
+	min-height: 660px;
+	padding: 30px;
+	position: sticky;
+	top: 100px;
+}
+
+.order {
+	font-weight: bold;
+	font-size: 26px;
+	margin-bottom: 30px;
+}
+
+.books {
+	display: flex;
+	flex-direction: column;
+	height: 450px;
+	overflow-x: hidden;
+	gap: 20px;
+}
+
+.book {
+	display: flex;
+	justify-content: space-between;
+	font-size: 22px;
+}
+
+.book_name {
+	width: 50%;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.book_amount {
+	width: 20%;
+	text-align: end;
+}
+
+.book_price {
+	width: 25%;
+	text-align: end;
+	font-weight: bold;
+}
+
+.total {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.total_summ {
+	font-size: 24px;
+	font-weight: bold;
+}
+.buy_btn {
+	border-radius: var(--br);
+	background-color: var(--black);
+	color: var(--white);
+	font-size: 26px;
+	padding: 5px 10px;
+}

@@ -1,0 +1,17 @@
+.root {
+	min-height: 660px;
+	height: fit-content;
+	padding: 30px;
+	border-radius: var(--br);
+	background-color: var(--white);
+	position: sticky;
+	top: 100px;
+}
+
+.genre {
+	width: fit-content;
+	color: #111;
+	font-size: 22px;
+	line-height: 200%;
+	cursor: pointer;
+}

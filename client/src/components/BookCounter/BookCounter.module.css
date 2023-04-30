@@ -1,0 +1,37 @@
+.wrapper {
+	width: 200px;
+	height: fit-content;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.minus_dis,
+.plus_dis {
+	width: 50px;
+	height: 50px;
+	border: none;
+	border-radius: var(--br);
+	background-color: var(--grey);
+	color: var(--white);
+	font-size: 50px;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.score_dis {
+	font-size: 30px;
+	font-weight: bold;
+	color: var(--grey);
+}
+
+.minus_act,
+.plus_act {
+	background-color: var(--black);
+}
+
+.score_act {
+	color: var(--black);
+}

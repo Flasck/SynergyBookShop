@@ -1,0 +1,37 @@
+.header {
+	width: 100%;
+	height: 70px;
+	position: sticky;
+	top: 0;
+	background-color: #111111;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.nav {
+	width: 1440px;
+	padding: 0 30px;
+	height: 30px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	font-size: 24px;
+}
+
+.group {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 20px;
+}
+
+.link {
+	color: #f1f1f1;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+.underlined {
+	text-decoration: underline;
+}
