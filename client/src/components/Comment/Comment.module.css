@@ -1,0 +1,19 @@
+.root {
+	background-color: var(--white);
+	border-radius: var(--br);
+	display: flex;
+	flex-direction: column;
+	padding: 30px;
+	justify-content: space-between;
+}
+
+.name {
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.message {
+	margin-top: 20px;
+	font-size: 16px;
+	line-height: 120%;
+}

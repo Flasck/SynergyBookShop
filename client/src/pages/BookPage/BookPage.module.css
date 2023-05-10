@@ -1,3 +1,78 @@
 .root {
-	
+	background-color: var(--bgc);
+}
+
+.wrapper {
+	min-height: calc(100vh - 70px);
+	width: 1440px;
+	padding: 30px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+}
+
+.description {
+	display: flex;
+	justify-content: space-between;
+	align-items: start;
+	gap: 30px;
+}
+
+.preview,
+.annotation {
+	background-color: var(--white);
+	border-radius: var(--br);
+	min-height: 300px;
+	width: 50%;
+	padding: 30px;
+	display: flex;
+	flex-direction: column;
+}
+
+.preview {
+	justify-content: space-between;
+}
+
+.name {
+	font-size: 28px;
+	font-weight: bold;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.author,
+.genre {
+	font-size: 18px;
+	color: var(--grey);
+	margin: -20px 0;
+}
+
+.price {
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.buy {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.title {
+	font-size: 26px;
+	font-weight: bold;
+}
+
+.text {
+	font-size: 18px;
+	margin-top: 20px;
+	line-height: 120%;
+}
+
+.comments {
+	margin-top: 30px;
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
 }

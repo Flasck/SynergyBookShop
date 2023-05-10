@@ -1,0 +1,39 @@
+.wrapper {
+	display: inline-block;
+	position: relative;
+	width: 100%;
+}
+
+.input {
+	width: 100%;
+	font-size: 22px;
+	border: 1px solid var(--black);
+	border-radius: var(--br);
+	padding: 10px 15px;
+}
+
+.placeholder {
+	position: absolute;
+	transform: translateY(-50%);
+	left: 15px;
+	top: 50%;
+	font-size: 18px;
+	padding: 5px;
+	background-color: var(--white);
+	color: rgba(0, 0, 0, 0.5);
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	cursor: text;
+	transition: all 0.05s ease-in;
+	transform-origin: left top;
+	font-weight: 300;
+}
+
+.input:focus ~ .placeholder,
+.input:valid ~ .placeholder {
+	transform: translateY(-150%) scale(0.9);
+}
